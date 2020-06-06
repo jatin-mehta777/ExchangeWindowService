@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Instructions\MailService.docx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
