@@ -42,7 +42,7 @@ namespace MailService
         }
         public static void Log(string logMessage)
         {
-            string _logFileLocation = @"C:\temp\servicelog_" + DateTime.Now.ToString("dd-MMM-yy") + ".txt";
+            string _logFileLocation = @"C:\Logs\servicelog_" + DateTime.Now.ToString("dd-MMM-yy") + ".txt";
             Directory.CreateDirectory(Path.GetDirectoryName(_logFileLocation));
             File.AppendAllText(_logFileLocation, DateTime.UtcNow.ToString() + " : " + logMessage + Environment.NewLine);
         }
